@@ -2,9 +2,10 @@ import { useState } from 'react'
 import {puppyList} from './data.js'
 console.log(puppyList)
 import './App.css'
+//testing. sending a push to my branch
+function App() {
 
- function App() {
-  const [puppies, setPuppies] = useState(puppyList)
+  const [puppies, setPuppies] = useState(puppyList);
   const [featPupId, setFeatPupId] = useState(null)
   const featuredPup = puppies.find((pup)=> pup.id === featPupId)
 console.log(puppies)
@@ -15,8 +16,6 @@ function handleClick(puppyId) {
 }
 
   console.log("puppyList: ", puppyList);
-
-
 
   return (
     <div className="App">
