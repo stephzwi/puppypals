@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {puppyList} from './data.js'
 console.log(puppyList)
 import './App.css'
-
+//testing. sending a push to my branch
 function App() {
 
   const [puppies, setPuppies] = useState(puppyList);
@@ -12,10 +12,6 @@ function App() {
     
     console.log("puppy id: ", puppyId)
   }
-  
-
-  
-
 
   console.log("puppyList: ", puppyList);
 
